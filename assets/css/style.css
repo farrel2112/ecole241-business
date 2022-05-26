@@ -451,7 +451,7 @@ h6 {
 #hero {
     width: 100%;
     height: 100vh;
-    background: url("../img/hero-bg.jpg") top center;
+    background: url("../img/La\ santé\ dans\ la\ Silicon\ Valley.jpg") top center;
     background-size: cover;
     position: relative;
 }
@@ -556,6 +556,10 @@ h6 {
     -webkit-animation: none;
     animation: none;
     border-radius: 0;
+}
+
+.neratezpas {
+    color: white !important;
 }
 
 @media (min-width: 1024px) {
@@ -882,7 +886,7 @@ section {
 --------------------------------------------------------------*/
 
 .counts {
-    background: url("../img/counts-bg.jpg") center center no-repeat;
+    background: url("../img/Electri-city.jpg") center center no-repeat;
     background-size: cover;
     padding: 80px 0 60px 0;
     position: relative;
