@@ -19,10 +19,18 @@ a {
     color: #009961;
     text-decoration: none;
 }
+.logofooter{
+    width: 200px;
+    height: 150px;
 
+}
 a:hover {
     color: #f44336;
     text-decoration: none;
+}
+input{
+    border-radius: 2px;
+    width: 250px;
 }
 
 h1,
@@ -148,6 +156,11 @@ h6 {
 
 #header .logo a {
     color: #fff;
+}
+footer{
+    position: absolute;
+    top: 80px;
+    margin-left: 200px;
 }
 
 #header .logo img {
