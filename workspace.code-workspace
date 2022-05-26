@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\wallstreetjournal"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ecole241-business"
+	}
+}
