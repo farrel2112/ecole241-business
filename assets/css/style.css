@@ -88,6 +88,8 @@ h6 {
 # Back to top button
 --------------------------------------------------------------*/
 
+
+/* 
 .back-to-top {
     position: fixed;
     visibility: hidden;
@@ -100,9 +102,10 @@ h6 {
     height: 40px;
     border-radius: 50px;
     transition: all 0.4s;
-}
+} */
 
-.back-to-top i {
+
+/* .back-to-top i {
     font-size: 28px;
     color: #fff;
     line-height: 0;
@@ -111,7 +114,7 @@ h6 {
 .back-to-top:hover {
     background: #00c27b;
     color: #fff;
-}
+} */
 
 .back-to-top.active {
     visibility: visible;
@@ -129,9 +132,9 @@ h6 {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-#header.header-scrolled,
+#header-scrolled,
 #header.header-inner-pages {
-    background: rgba(40, 40, 40, 0.9);
+    background: #003366 !important;
 }
 
 #header .logo {
@@ -558,6 +561,12 @@ h6 {
     border-radius: 0;
 }
 
+.neratezpas {
+    color: white !important;
+}
+
+
+/* 
 @media (min-width: 1024px) {
     #hero {
         background-attachment: fixed;
@@ -597,6 +606,7 @@ h6 {
         opacity: 0;
     }
 }
+ */
 
 
 /*--------------------------------------------------------------
@@ -1328,10 +1338,8 @@ section {
 }
 
 @media (max-width: 992px) {
-    .faq {
-        /* img {
-      padding-top: 30px;
-    } */
+    .faq img {
+        padding-top: 30px;
     }
     .faq .content {
         padding-top: 30px;
@@ -1603,4 +1611,69 @@ section {
     background-color: #f44336;
     color: #fff;
     margin-top: 20px;
+}
+
+.logo {
+    width: 50px;
+}
+
+.msg-opportunite {
+    animation: enter 2s ease-in-out 0.3s;
+    -webkit-animation: enter 2s ease-in-out 0.3s;
+    background-color: #003366 !important;
+    color: #fff;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.msg-prochaine-formation {
+    background-color: #003366 !important;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+@keyframes enter {
+    0% {
+        transform: translateX(900px);
+        -webkit-transform: translateX(900px);
+        -moz-transform: translateX(900px);
+        -ms-transform: translateX(900px);
+        -o-transform: translateX(900px);
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.title-business {
+    margin-top: 50px;
+}
+
+.btn-custom-subscribe {
+    background-color: #fff;
+    border: 2px solid #003366;
+    color: #f44336;
+    margin-top: 50px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+
+/* .contenant {
+    background-color: #003366 !important;
+    color: #fff !important;
+} */
+
+form {
+    margin-top: 90px;
+    position: relative;
+    left: 350px;
+}
+
+.formulaire {
+    width: 400px;
 }
